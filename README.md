@@ -3,8 +3,8 @@
 Goal: build strong fresher software-engineering interview fundamentals — Java DSA fluency, pattern recognition, complexity analysis, and Core CS basics.
 
 - Language: Java
-- Original Start: 11 August 2026
-- Original Target: 23 December 2026
+- Original Start: 12 August 2026
+- Original Target: 24 December 2026
 - Active Curriculum Day: 1 / 135
 - Completed: 0 / 135
 - Unique Problems Solved: 0
