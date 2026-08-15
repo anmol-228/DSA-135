@@ -32,3 +32,6 @@ Validation: Passed (compiled, functional tests green)
 
 ## Java program structure (2026-08-15T23:03:58.200019+05:30)
 Primarily about main() function and basics about what a function/method is.
+
+## main (2026-08-15T23:04:36.129205+05:30)
+main() is the entry point for any java program.
