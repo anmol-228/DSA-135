@@ -1,0 +1,19 @@
+# Java/build output
+*.class
+build/
+out/
+target/
+
+# Editors and operating systems
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Temporary and diagnostic files
+*.tmp
+*.bak
+*.prev-*.java
+integration-test/
+.integration-test/
+*.log

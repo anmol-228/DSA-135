@@ -1,7 +1,7 @@
 # Day 1 — Java Fundamentals I
 
 Curriculum Day: 1
-Original Scheduled Date: 2026-08-11
+Original Scheduled Date: 2026-08-15
 
 ## Learn
 - Java program structure
