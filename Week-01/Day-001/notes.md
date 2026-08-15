@@ -44,3 +44,21 @@ Use of if-elseif-else and logical operators, specifically AND(&&)
 Completed: 2026-08-15T23:17:13.693612+05:30
 
 Validation: Passed (compiled, functional tests green)
+
+## variables (2026-08-15T23:30:18.772221+05:30)
+Variable
+Named memory location
+Literal
+Fixed value assigned to a variable
+Static Typing
+Type must be declared before use
+Integer Literal
+Whole number
+Floating Literal
+Decimal or exponential number
+Character Literal
+Single character
+String Literal
+Text
+Boolean Literal
+true / false
