@@ -35,3 +35,12 @@ Primarily about main() function and basics about what a function/method is.
 
 ## main (2026-08-15T23:04:36.129205+05:30)
 main() is the entry point for any java program.
+
+## Maximum of 3
+
+What I learned:
+Use of if-elseif-else and logical operators, specifically AND(&&)
+
+Completed: 2026-08-15T23:17:13.693612+05:30
+
+Validation: Passed (compiled, functional tests green)
