@@ -29,3 +29,6 @@ Implementation of simple if-else and modulus operator.
 Completed: 2026-08-15T22:39:31.413364+05:30
 
 Validation: Passed (compiled, functional tests green)
+
+## Java program structure (2026-08-15T23:03:58.200019+05:30)
+Primarily about main() function and basics about what a function/method is.
