@@ -20,3 +20,12 @@ Original Scheduled Date: 2026-08-15
 - Leap Year
 
 (Notes for each exercise are appended automatically by the desktop app when you mark a task complete.)
+
+## Even/Odd
+
+What I learned:
+Implementation of simple if-else and modulus operator.
+
+Completed: 2026-08-15T22:39:31.413364+05:30
+
+Validation: Passed (compiled, functional tests green)
