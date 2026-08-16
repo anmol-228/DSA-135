@@ -1,0 +1,51 @@
+// DSA Focus Mode -- see the DSA Accountability repo
+// (https://github.com/anmol-228/DSA-Accountability) for the evidence behind
+// every setting below. Workspace-scoped only: none of this affects any
+// other project opened in VS Code.
+{
+    // No AI-written Java while learning. Defensive: no AI extension is
+    // currently installed on this machine, but this keeps the workspace
+    // safe if one ever is added.
+    "editor.inlineSuggest.enabled": false,
+    "github.copilot.enable": { "*": false },
+    "github.copilot.nextEditSuggestions.enabled": false,
+
+    // Ordinary, non-AI IntelliSense stays on -- listed explicitly so it's
+    // clear these were a deliberate keep, not an oversight.
+    "editor.quickSuggestions": { "other": true, "comments": false, "strings": false },
+    "editor.parameterHints.enabled": true,
+    "editor.hover.enabled": "on",
+    "editor.suggestOnTriggerCharacters": true,
+
+    // Java compiled output stays out of the source tree instead of landing
+    // beside .java files. Must be WORKSPACE-scoped to take effect (per
+    // redhat.java's own setting description).
+    "java.project.outputPath": ".java-build",
+
+    // DSA Accountability is the authoritative test/run path for this
+    // workflow; the CodeLens above main() was a second, confusing
+    // execution path. Manual Run/Debug from the command palette still
+    // works -- the debugger itself is untouched.
+    "java.debug.settings.enableRunDebugCodeLens": false,
+
+    // Code Runner's default Java command (javac with no -d flag) is what
+    // was writing .class files beside source. Redirected to the same
+    // isolated build folder as java.project.outputPath instead of
+    // disabling it outright, so a quick ad-hoc run still works without
+    // cluttering the tree.
+    "code-runner.executorMap": {
+        "java": "cd $dir && javac -d .java-build $fileName && java -cp .java-build $fileNameWithoutExt"
+    },
+
+    // Explorer/search stay focused on real source, not generated output.
+    // Only generated-artifact patterns are hidden -- never .java, notes,
+    // or curriculum files.
+    "files.exclude": {
+        "**/.java-build": true,
+        "**/*.class": true
+    },
+    "search.exclude": {
+        "**/.java-build": true,
+        "**/*.class": true
+    }
+}

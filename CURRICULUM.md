@@ -1,8 +1,13 @@
-# Curriculum overview
+# Curriculum overview (historical)
 
-This repository follows a fixed 135-day Java DSA curriculum. The reference
-content is maintained by the DSA Accountability application; the calendar
-dates below belong to this learner instance.
+**This was the original plan and is no longer how this repository is
+worked through.** DSA Accountability replaced its fixed day-based
+progression with a flexible topic/mastery/session model — see
+[TOPICS.md](TOPICS.md) for the taxonomy actually in use now and
+[PROGRESS.md](PROGRESS.md) for real status. This file is kept as a record of
+where the repository started, not as active guidance.
+
+Original fixed-schedule parameters, as configured at the time:
 
 - Day 1: 2026-08-15
 - Day 135: 2026-12-27
@@ -10,7 +15,7 @@ dates below belong to this learner instance.
 - Language: Java
 - LeetCode selection: free-tier problems
 
-## Learning phases
+## Learning phases (original plan)
 
 | Approximate phase | Focus |
 |---|---|

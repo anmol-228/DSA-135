@@ -3,10 +3,14 @@
 build/
 out/
 target/
+.java-build/
 
 # Editors and operating systems
+# .vscode/settings.json and .vscode/extensions.json are intentionally
+# tracked -- portable DSA Focus Mode config, no machine-specific paths.
+# Only files an editor might add later (e.g. a personal launch.json) would
+# need their own specific ignore rule.
 .idea/
-.vscode/
 .DS_Store
 Thumbs.db
 
