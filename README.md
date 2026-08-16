@@ -1,78 +1,73 @@
 # DSA 135
 
-My Java data-structures and algorithms accountability journey. This repository
-contains the exercises, LeetCode solutions, and notes I actually complete —
-nothing is filled in merely to make the repository look finished.
-
-## About the name
-
-This repository started as a fixed 135-day plan (hence the name) — see
-[CURRICULUM.md](CURRICULUM.md) for that original structure. It's no longer how
-I actually study: I now work topic by topic, at my own pace, instead of a
-fixed daily schedule. The name stays for repository continuity; the content
-follows the current model.
+My Java data-structures and algorithms accountability journey — a fixed
+135-day plan. This repository contains the exercises, LeetCode solutions,
+and notes I actually complete — nothing is filled in merely to make the
+repository look finished.
 
 ## Current status
 
-See [PROGRESS.md](PROGRESS.md) for the human-readable progress record,
-[COMPLETED.md](COMPLETED.md) for a verified per-item breakdown of what's
-actually done, and [TOPICS.md](TOPICS.md) for the topic taxonomy this
-repository is organized around.
+**Day 01 / 135.** See [PROGRESS.md](PROGRESS.md) for the human-readable
+progress record and [COMPLETED.md](COMPLETED.md) for a verified per-item
+breakdown of what's actually done. [CURRICULUM.md](CURRICULUM.md) has the
+full 135-day plan.
 
 ## Method
 
-- Topic-based practice: I pick topics and build a practice session (LeetCode
-  problems, local Java exercises, or both) instead of following a fixed
-  day-by-day order.
+- Fixed day-by-day progression: `active_day` is always the earliest
+  incomplete curriculum day. The calendar date never auto-advances it — a
+  missed day simply stays active until finished, then the next day unlocks
+  immediately.
 - Java-first practice for language fluency and interview preparation.
-- LeetCode-first, with a curated problem bank; the
-  [Love Babbar / CodeHelp DSA playlist](https://www.youtube.com/@CodeHelp)
-  is my primary learning resource.
-- Local exercises are written, compiled, and tested on my machine — never
-  filled in by an AI.
-- LeetCode work is recorded only after my own fresh Accepted submission.
-- Each completed problem includes an explanation, complexity notes, assistance
-  level, and Green/Yellow/Red confidence reflection.
+- LeetCode work is recorded only after a fresh, genuine Accepted submission
+  on leetcode.com — never fabricated, never solved on my behalf.
+- Local Java exercises are written, compiled, and tested on my own machine —
+  never filled in by an AI.
+- Each completed problem includes an explanation, complexity notes,
+  assistance level, and Green/Yellow/Red confidence reflection.
 - Revisions reinforce solved problems at spaced intervals.
-- Per-topic mastery is tracked from real evidence (solves, exercises,
-  reflections) — a status change requires both a score threshold and a
-  minimum evidence count, so one lucky solve is never "interview ready."
+- Primary learning resource: the
+  [Love Babbar / CodeHelp DSA playlist](https://www.youtube.com/@CodeHelp).
 
 ## Repository structure
 
 ```text
-Topics/
-└── <Topic-Name>/
-    ├── exercises/    # Java exercise skeletons and completed solutions
-    ├── leetcode/     # LCxxxx_ProblemTitle.java after genuine completion
-    └── notes.md      # Learning notes and reflections
+Week-01/
+  Day-001/
+    exercises/   Java fundamentals exercises (skeletons only until solved)
+    leetcode/    LCxxxx_ProblemTitle.java files, after genuine completion
+    notes.md     Pattern, approach (in my own words), complexity, confidence
+Week-02/
+  ...
 ```
 
-Topic directories are created as genuine work reaches them — not pre-created
-empty as if they were already in progress. A problem existing in the curated
-bank ([TOPICS.md](TOPICS.md)) does not mean it's solved; see
-[PROGRESS.md](PROGRESS.md) for what's actually done.
-
-The original `Week-XX/Day-XXX/` structure still holds any already-completed
-work from before the topic-based switch, preserved as-is (see
-[CURRICULUM.md](CURRICULUM.md)) — new work goes under `Topics/`.
+A file existing at its canonical path is not, by itself, evidence it's
+solved — see [COMPLETED.md](COMPLETED.md) for what's actually verified done.
 
 ## Commit style
 
-- `dsa(<topic>): complete Java exercise — ...`
-- `dsa(<topic>): solve LC...`
-- `revision(<topic>): re-solve LC...`
+- `dsa(day-NNN): complete Java exercise — ...`
+- `dsa(day-NNN): solve LC...`
+- `dsa(day-NNN): complete learn — ...`
+- `revision(day-NNN): re-solve LC...`
 
-Commits represent real study work. Local Git preserves the history; GitHub is
-the remote copy.
+Commits represent real study work. Local Git preserves the history; GitHub
+is the remote copy.
 
 ## DSA Accountability
 
 This repository is tracked with
 [DSA Accountability](https://github.com/anmol-228/DSA-Accountability), a
-Windows desktop app that lets me build topic-based practice sessions,
-validates local Java work, detects genuine LeetCode Accepted submissions,
-and coordinates reflections, revisions, and safe Git/GitHub sync.
+Windows desktop app that enforces the day-by-day plan, validates local Java
+work, detects genuine LeetCode Accepted submissions, and coordinates
+reflections, revisions, and safe Git/GitHub sync.
 
 The application does not solve or submit questions for me. Solutions and
 reflections here reflect genuine progress.
+
+## History note
+
+This repository briefly experimented with a flexible topic/session model
+(exercises temporarily lived under a `Topics/` directory) before returning
+to the original fixed 135-day plan. That history is preserved in Git; the
+active structure is the `Week-XX/Day-XXX/` layout above.

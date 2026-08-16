@@ -1,6 +1,13 @@
-# Topics
+# Topics (historical)
 
-The topic taxonomy this repository is organized around, exactly as seeded by [DSA Accountability](https://github.com/anmol-228/DSA-Accountability)'s flexible topic/mastery/session engine. This is a reference for what the taxonomy covers, not a progress record -- see [PROGRESS.md](PROGRESS.md) for status.
+**This repository no longer uses this taxonomy.** It briefly used a flexible
+topic/mastery/session model instead of the fixed 135-day plan; that approach
+has been retired and this repository has returned to the day-by-day plan in
+[CURRICULUM.md](CURRICULUM.md). This file is kept as a record of that
+taxonomy, not as active guidance -- see [PROGRESS.md](PROGRESS.md) for real,
+current status.
+
+The topic taxonomy this repository was briefly organized around, exactly as seeded by [DSA Accountability](https://github.com/anmol-228/DSA-Accountability)'s flexible topic/mastery/session engine. This is a reference for what the taxonomy covered, not a progress record.
 
 **41 topics**, **59 curated LeetCode problems**, **85 verified playlist videos**, **16 local Java exercises**.
 

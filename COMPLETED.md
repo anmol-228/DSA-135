@@ -1,29 +1,24 @@
 # Completed Work
 
 Generated from verified evidence only (real `javac` compile + the DSA
-Accountability app's own real functional-test suite, re-run against each
-file exactly as it sits in this repository — never assumed from a commit
-message or file location). Full reasoning per item, including the one
-rejected historical artifact, is in `DSA135_HISTORICAL_COMPLETION_LEDGER.md`
-in the [DSA Accountability](https://github.com/anmol-228/DSA-Accountability)
-repository.
+Accountability app's own real functional-test suite, run against each file
+exactly as it sits in this repository — never assumed from a commit message
+or file location).
 
-## Java Foundations — Conditionals
+## Day 1 — Java Fundamentals I
 
-✅ [Even/Odd](Topics/Java-Conditionals/exercises/EvenOdd.java) — verified: compiles, 4/4 functional tests pass
-✅ [Maximum of Three](Topics/Java-Conditionals/exercises/MaximumOfThree.java) — verified: compiles, 4/4 functional tests pass
-⬜ [Leap Year](Topics/Java-Conditionals/exercises/LeapYear.java) — not started (starter skeleton only)
+Learn items (Java program structure, main, variables, primitive data types,
+operators, input/output, Scanner, if/else): ✅ all complete.
 
-## Java Foundations — Operators
-
-🟡 [Simple Calculator](Week-01/Day-001/exercises/SimpleCalculator.java) — in progress: compiles, but fails functional
-tests (reads input in the wrong order — see the ledger for the exact bug).
-Not fixed here; left for the author to finish.
+✅ [Even/Odd](Week-01/Day-001/exercises/EvenOdd.java) — verified: compiles, 4/4 functional tests pass
+✅ [Maximum of Three](Week-01/Day-001/exercises/MaximumOfThree.java) — verified: compiles, 4/4 functional tests pass
+✅ [Simple Calculator](Week-01/Day-001/exercises/SimpleCalculator.java) — verified: compiles, 4/4 functional tests pass
+⬜ [Leap Year](Week-01/Day-001/exercises/LeapYear.java) — not started (starter skeleton only)
 
 ---
 
-Legend: ✅ verified completed · 🟡 in progress · ⬜ not started
+Legend: ✅ verified completed · ⬜ not started
 
 Nothing above is marked completed without a real, reproducible compile +
-functional-test pass at the time this file was generated. A file existing
-under `Topics/` is not, by itself, evidence of completion.
+functional-test pass at the time this file was generated. A file existing at
+its canonical path is not, by itself, evidence of completion.
