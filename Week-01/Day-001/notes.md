@@ -77,3 +77,6 @@ Scanner sc = new Scanner(System.in);
 
 ## Scanner (2026-08-16T10:01:08.297151+05:30)
 Used to take input from user.
+
+## if/else (2026-08-16T10:01:38.923969+05:30)
+Conditional statements.
