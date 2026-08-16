@@ -14,9 +14,10 @@ follows the current model.
 
 ## Current status
 
-See [PROGRESS.md](PROGRESS.md) for the human-readable progress record and
-[TOPICS.md](TOPICS.md) for the topic taxonomy this repository is organized
-around.
+See [PROGRESS.md](PROGRESS.md) for the human-readable progress record,
+[COMPLETED.md](COMPLETED.md) for a verified per-item breakdown of what's
+actually done, and [TOPICS.md](TOPICS.md) for the topic taxonomy this
+repository is organized around.
 
 ## Method
 
