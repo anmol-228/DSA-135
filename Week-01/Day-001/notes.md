@@ -68,3 +68,9 @@ Basic data type, directly built in Java. Primarily of 8 types -- boolean, byte, 
 
 ## operators (2026-08-16T09:58:21.195078+05:30)
 Special symbols used to perform operations on variables.
+
+## input/output (2026-08-16T10:00:33.586430+05:30)
+Output is sent to the console using System.out.println/print/printf()
+Input is taken using Scanner class -- 
+import java.util.scanner; 
+Scanner sc = new Scanner(System.in);
