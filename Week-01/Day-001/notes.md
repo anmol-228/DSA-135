@@ -62,3 +62,6 @@ String Literal
 Text
 Boolean Literal
 true / false
+
+## primitive data types (2026-08-16T09:57:40.358110+05:30)
+Basic data type, directly built in Java. Primarily of 8 types -- boolean, byte, int, short, long, float, double, and char
