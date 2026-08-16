@@ -1,25 +1,39 @@
 # Completed Work
 
-Generated from verified evidence only (real `javac` compile + the DSA
-Accountability app's own real functional-test suite, run against each file
-exactly as it sits in this repository — never assumed from a commit message
-or file location).
+Generated automatically from the DSA Accountability app's own
+database -- reflects real completed tasks only, never assumed from
+a commit message or file location. Local exercises are only marked
+complete after they compile and pass the app's own functional-test
+suite; LeetCode problems only after a fresh, genuine Accepted
+submission. Nothing here is filled in by AI on the learner's behalf.
 
 ## Day 1 — Java Fundamentals I — ✅ COMPLETE
 
-Learn items (Java program structure, main, variables, primitive data types,
-operators, input/output, Scanner, if/else): ✅ all complete.
+✅ Java program structure (learn)
+✅ main (learn)
+✅ variables (learn)
+✅ primitive data types (learn)
+✅ operators (learn)
+✅ input/output (learn)
+✅ Scanner (learn)
+✅ if/else (learn)
+✅ Even/Odd (exercise)
+✅ Maximum of 3 (exercise)
+✅ Simple Calculator (exercise)
+✅ Leap Year (exercise)
 
-✅ [Even/Odd](Week-01/Day-001/exercises/EvenOdd.java) — verified: compiles, 4/4 functional tests pass
-✅ [Maximum of Three](Week-01/Day-001/exercises/MaximumOfThree.java) — verified: compiles, 4/4 functional tests pass
-✅ [Simple Calculator](Week-01/Day-001/exercises/SimpleCalculator.java) — verified: compiles, 4/4 functional tests pass
-✅ [Leap Year](Week-01/Day-001/exercises/LeapYear.java) — verified: compiles, 4/4 functional tests pass
+## Day 2 — Java Fundamentals II — active, 0 / 9 tasks
 
-## Day 2 — Java Fundamentals II — active, not yet started
+⬜ for (learn)
+⬜ while (learn)
+⬜ methods (learn)
+⬜ basic number logic (learn)
+⬜ Factorial (exercise)
+⬜ Prime check (exercise)
+⬜ Fibonacci (exercise)
+⬜ Reverse a number (exercise)
+⬜ Palindrome number (exercise)
 
 ---
 
-Legend: ✅ verified completed · ⬜ not started
-
-Nothing above is marked completed without a real, reproducible compile +
-functional-test pass at the time this file was generated.
+Legend: ✅ verified completed · 🟢 active · ⬜ not started
