@@ -89,3 +89,13 @@ I learned how to take multiple user inputs using Scanner, store values in variab
 Completed: 2026-08-16T21:59:24.837457+05:30
 
 Validation: Passed (compiled, functional tests green)
+
+## Leap Year
+
+What I learned:
+Primarily the use of modulus operator and the logical AND and OR operators.
+Also, the condition for a leap year is -- (year % 4 == 0 and year % 100 != 0) or (year % 400 == 0)
+
+Completed: 2026-08-16T22:26:16.671050+05:30
+
+Validation: Passed (compiled, functional tests green)
