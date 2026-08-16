@@ -80,3 +80,12 @@ Used to take input from user.
 
 ## if/else (2026-08-16T10:01:38.923969+05:30)
 Conditional statements.
+
+## Simple Calculator
+
+What I learned:
+I learned how to take multiple user inputs using Scanner, store values in variables, and use if-else conditions to perform different arithmetic operations based on the operator entered. I also understood how the order of inputs matters when reading values from the console.
+
+Completed: 2026-08-16T21:59:24.837457+05:30
+
+Validation: Passed (compiled, functional tests green)
