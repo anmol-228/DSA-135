@@ -9,15 +9,14 @@ evidence-backed breakdown.
 
 ## Current status
 
-**Day 01 / 135 — 11 / 12 tasks complete.**
+**Day 01 / 135 — complete. Day 02 / 135 — active, 0 / 9 tasks so far.**
 
 | Metric | Value |
 |---|---:|
-| Active curriculum day | 1 / 135 |
-| Day 1 tasks complete | 11 / 12 |
-| Days fully complete | 0 / 135 |
+| Active curriculum day | 2 / 135 |
+| Days fully complete | 1 / 135 |
 
-## Day 1 — Java Fundamentals I
+## Day 1 — Java Fundamentals I (complete)
 
 | Task | Type | Status |
 |---|---|---|
@@ -32,10 +31,21 @@ evidence-backed breakdown.
 | Even/Odd | exercise | ✅ complete |
 | Maximum of 3 | exercise | ✅ complete |
 | Simple Calculator | exercise | ✅ complete |
-| Leap Year | exercise | ⬜ not started |
+| Leap Year | exercise | ✅ complete |
 
-Day 1 remains active until Leap Year is finished — completing every
-mandatory task unlocks Day 2 immediately, regardless of calendar date.
+## Day 2 — Java Fundamentals II (active)
+
+| Task | Type | Status |
+|---|---|---|
+| for | learn | ⬜ not started |
+| while | learn | ⬜ not started |
+| methods | learn | ⬜ not started |
+| basic number logic | learn | ⬜ not started |
+| Factorial | exercise | ⬜ not started |
+| Prime check | exercise | ⬜ not started |
+| Fibonacci | exercise | ⬜ not started |
+| Reverse a number | exercise | ⬜ not started |
+| Palindrome number | exercise | ⬜ not started |
 
 ## Notes
 
@@ -43,7 +53,7 @@ mandatory task unlocks Day 2 immediately, regardless of calendar date.
   input-order ambiguity in the exercise's own validator (the original
   scaffold comment never specified whether the operator should be read
   before or after the second number; the solution's own arithmetic logic
-  was correct throughout). See the app repository's
-  `DSA135_HISTORICAL_COMPLETION_LEDGER.md` and related reports for the full
-  reasoning.
-- Leap Year is the unmodified starter skeleton — genuinely not started.
+  was correct throughout).
+- Leap Year was completed normally through the app.
+- Day 2 unlocked immediately on Day 1's completion, same timestamp — no
+  delay, no skipped days.

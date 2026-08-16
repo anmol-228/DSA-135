@@ -5,7 +5,7 @@ Accountability app's own real functional-test suite, run against each file
 exactly as it sits in this repository — never assumed from a commit message
 or file location).
 
-## Day 1 — Java Fundamentals I
+## Day 1 — Java Fundamentals I — ✅ COMPLETE
 
 Learn items (Java program structure, main, variables, primitive data types,
 operators, input/output, Scanner, if/else): ✅ all complete.
@@ -13,12 +13,13 @@ operators, input/output, Scanner, if/else): ✅ all complete.
 ✅ [Even/Odd](Week-01/Day-001/exercises/EvenOdd.java) — verified: compiles, 4/4 functional tests pass
 ✅ [Maximum of Three](Week-01/Day-001/exercises/MaximumOfThree.java) — verified: compiles, 4/4 functional tests pass
 ✅ [Simple Calculator](Week-01/Day-001/exercises/SimpleCalculator.java) — verified: compiles, 4/4 functional tests pass
-⬜ [Leap Year](Week-01/Day-001/exercises/LeapYear.java) — not started (starter skeleton only)
+✅ [Leap Year](Week-01/Day-001/exercises/LeapYear.java) — verified: compiles, 4/4 functional tests pass
+
+## Day 2 — Java Fundamentals II — active, not yet started
 
 ---
 
 Legend: ✅ verified completed · ⬜ not started
 
 Nothing above is marked completed without a real, reproducible compile +
-functional-test pass at the time this file was generated. A file existing at
-its canonical path is not, by itself, evidence of completion.
+functional-test pass at the time this file was generated.

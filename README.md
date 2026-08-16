@@ -7,10 +7,10 @@ repository look finished.
 
 ## Current status
 
-**Day 01 / 135.** See [PROGRESS.md](PROGRESS.md) for the human-readable
-progress record and [COMPLETED.md](COMPLETED.md) for a verified per-item
-breakdown of what's actually done. [CURRICULUM.md](CURRICULUM.md) has the
-full 135-day plan.
+**Day 02 / 135** (Day 01 complete). See [PROGRESS.md](PROGRESS.md) for the
+human-readable progress record and [COMPLETED.md](COMPLETED.md) for a
+verified per-item breakdown of what's actually done.
+[CURRICULUM.md](CURRICULUM.md) has the full 135-day plan.
 
 ## Method
 
