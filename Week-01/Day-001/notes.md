@@ -74,3 +74,6 @@ Output is sent to the console using System.out.println/print/printf()
 Input is taken using Scanner class -- 
 import java.util.scanner; 
 Scanner sc = new Scanner(System.in);
+
+## Scanner (2026-08-16T10:01:08.297151+05:30)
+Used to take input from user.
