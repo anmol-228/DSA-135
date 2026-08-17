@@ -22,9 +22,9 @@ submission. Nothing here is filled in by AI on the learner's behalf.
 ✅ Simple Calculator (exercise)
 ✅ Leap Year (exercise)
 
-## Day 2 — Java Fundamentals II — active, 0 / 9 tasks
+## Day 2 — Java Fundamentals II — active, 1 / 9 tasks
 
-⬜ for (learn)
+✅ for (learn)
 ⬜ while (learn)
 ⬜ methods (learn)
 ⬜ basic number logic (learn)
